@@ -4,6 +4,7 @@
 - app simple console CRUD Student
 
 
+
 # Step by Step
 
 >> create console app in visual studio 
@@ -12,6 +13,8 @@
 
 	Install-Package Microsoft.EntityFrameworkCore
 	Install-Package Microsoft.EntityFrameworkCore.SqlServer
+	Install-Package Microsoft.EntityFrameworkCore.Tools
+
 
 >> Creat Model class Student
 
@@ -33,7 +36,9 @@
 			 protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 			{
 				optionsBuilder.UseSqlServer("YourConnectionStringHere");
-			}		}	 
+			}
+		}
+	 
 >> lệnh tạo migration và update database
 
 	Add-Migration InitialCreate
