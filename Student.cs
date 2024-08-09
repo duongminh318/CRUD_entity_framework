@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace CRUD_entity_framework
 {
+    // model
     public class Student
     {
+       
         public int Id { get; set; }
         public string Name { get; set; }
         public double Score { get; set; }
+       
     }
 }

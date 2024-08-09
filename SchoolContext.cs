@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CRUD_entity_framework
 {
+    // DBContext
     public class SchoolContext: DbContext
     {
         public DbSet<Student> Students { get; set; }

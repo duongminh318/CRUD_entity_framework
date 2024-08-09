@@ -40,6 +40,7 @@ class Program
         }
     }
 
+    // Method Progess
     private static void AddStudent()
     {
         using (var context = new SchoolContext())
