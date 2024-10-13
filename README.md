@@ -1,6 +1,6 @@
 ﻿# CRUD_entity_framework
->> bài tập ví dụ về cách sử dụng entity framework trong việc
-- tạo csdl và tương tác với nó bằng code first
+>> bài tập ví dụ về cách sử dụng entity framework trong việc - Example exercises on how to use entity framework in
+- tạo csdl và tương tác với nó bằng code first - create database and interact with it using code first
 - app simple console CRUD Student
 
 
