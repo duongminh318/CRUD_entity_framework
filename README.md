@@ -25,9 +25,9 @@
 		public double Score { get; set; }
 	}
 
->> Tạo lớp SchoolContext
-- Thêm lớp SchoolContext kế thừa từ DbContext
-- để quản lý kết nối với cơ sở dữ liệu và các bảng dữ liệu.
+>> Tạo lớp SchoolContext, Add Class SchoolContext
+- Thêm lớp SchoolContext kế thừa từ DbContext - Add SchoolContext class inheriting from DbContext
+- để quản lý kết nối với cơ sở dữ liệu và các bảng dữ liệu. - to manage connections to databases and data tables.
 
 		using Microsoft.EntityFrameworkCore;				
 	    public class SchoolContext : DbContext							
@@ -39,9 +39,9 @@
 			}
 		}
 	 
->> lệnh tạo migration và update database
+>> lệnh tạo migration và update database - command to add-migration and update-database
 
 	Add-Migration InitialCreate
 	Update-Database
 
->> các hàm xử lý thêm, xoá sử sinh viên, trong program
+>> các hàm xử lý thêm, xoá sử sinh viên, trong program - Functions to add and delete student history in the program.cs
