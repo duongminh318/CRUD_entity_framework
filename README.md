@@ -45,3 +45,4 @@
 	Update-Database
 
 >> các hàm xử lý thêm, xoá sử sinh viên, trong program - Functions to add and delete student history in the program.cs
+ done
